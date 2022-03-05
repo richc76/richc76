@@ -1,0 +1,25 @@
+{
+  "datacenter": "east-aws",
+  "data_dir": "/opt/consul",
+  "log_level": "INFO",
+  "server": true,
+  "bootstrap" : true,
+  "bootstrap_expect": 1,
+  "ui_config": {"enabled":true},
+  "bind_addr": "{{GetPrivateIP}}",
+  "client_addr" : "127.0.0.1",
+  "encrypt": "xw19OXfPgxjTDHXbUhWwk0H8zfBt13MVALbKYIWmP/E=",
+  "addresses": {
+   "http": "0.0.0.0",
+   "https": "0.0.0.0",
+   "grpc": "0.0.0.0"
+  },
+  "ports": {
+    "grpc": 8502,
+    "http": 8500,
+    "https": 8501
+  },
+  "connect": {
+    "enabled": true
+  }
+}
