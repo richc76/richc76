@@ -1,0 +1,16 @@
+{
+  "Kind": "service-router",
+  "Name": "service-ingress-router",
+  "Routes": [
+    {
+      "Match": {
+        "HTTP": {
+          "PathPrefix": "/dash"
+        }
+      },
+      "Destination": {
+        "Service": "dashboard"
+      }
+    }
+  ]
+}
