@@ -1,0 +1,25 @@
+{
+  "Kind" = "ingress-gateway"
+  "Name" = "ingress-services-gateway"
+  
+  Listeners = [
+   {
+     Port = 9001
+     Protocol = "tcp"
+     Services = [
+       {
+         Name = "counting"
+       }
+     ]
+   },
+   {
+     Port = 9002
+     Protocol = "tcp"
+     Services = [
+       {
+         Name = "dashboard"
+       }
+     ]
+   }
+  ]
+}
