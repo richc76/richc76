@@ -1,0 +1,13 @@
+{
+  "Node": "legacy_node",
+  "Address": "192.168.3.56",
+  "NodeMeta": {
+    "external-node": "true",
+    "external-probe": "true"
+  },
+  "Service": {
+    "ID": "counting1",
+    "Service": "counting",
+    "Port": 9003
+  }
+}
