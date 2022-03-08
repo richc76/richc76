@@ -1,6 +1,6 @@
 {
   "Node": "legacy_node",
-  "Address": "192.168.3.56",
+  "Address": "192.168.3.55",
   "NodeMeta": {
     "external-node": "true",
     "external-probe": "true"
