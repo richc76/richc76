@@ -6,8 +6,8 @@
     "external-probe": "true"
   },
   "Service": {
-    "ID": "counting1",
-    "Service": "counting",
+    "ID": "counting-ext-1",
+    "Service": "counting-ext",
     "Port": 9003
   }
 }

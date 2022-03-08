@@ -3,7 +3,7 @@
   "Name": "legacy-services-gateway",
   "Services": [
    {
-     "Name": "counting"
+     "Name": "counting-ext"
    }
   ]
 }
